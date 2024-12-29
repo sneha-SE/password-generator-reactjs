@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-changer{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.bg-bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+  padding: 20px;
+  background-color: #fff;
+  height: 70px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 30px;
+  border-radius: 0.5rem;
+
+}
+
+button{
+  border-radius: 0.5rem;
+}
+
+#btn-1{
+  background-color: #DC143C;
+  padding: 0.9rem;
+}
+
+#btn-2{
+  background-color: #ffb8c2;
+  padding: 0.9rem;
+}
+
+#btn-3{
+  background-color: #FF8C00;
+  padding: 0.9rem;
+}
+
+#btn-5{
+  background-color: #DDA0DD;
+  padding: 0.9rem;
+}
+
+#btn-6{
+  background-color: #7CFC00;
+  padding: 0.9rem;
+}
+
+#btn-7{
+  background-color: #7CFC00;
+  padding: 0.9rem;
+}
+
